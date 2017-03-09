@@ -1,0 +1,17 @@
+Implementation of Machine Learning Algorithms
+To run the code, from command prompt type:
+python myAboost.py "boston.csv" "value_of_B" num_fold
+Example:
+python myAboost.py "boston.csv" "5,10,15,20,25,30,35,40,45,50" 10
+python myAboost.py "boston.csv" "20" 10
+python myRForest.py "boston.csv" "value_of_m" numruns
+Example: python myRForest.py "boston.csv" "1,2,3,4,5,6,7,8,9,10,11,12,13" 10
+python myRForest.py "boston.csv" "11" 5
+python LDA1dThres.py ‘path/to/.csv file’ num_folds
+python LDA2dGaussGM.py path/to/.csv file’ num_folds
+python logisticRegression.py ‘path/to/.csv file’ num_splits train_percent
+python naiveBayesGaussian.py ‘path/to/.csv file’ num_splits train_percent
+python mySmoSVM.py ‘path/to/.csv file’ numruns
+python myPegasos.py "MNIST-13.csv" "value_of_k" numruns
+python mySVRG.py "MNIST-13.csv" "value_of_k" numruns
+
